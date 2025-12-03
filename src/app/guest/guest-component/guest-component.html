@@ -1,0 +1,20 @@
+<!-- Hero Section full-page -->
+<div
+  class="position-fixed mt-10 top-0 start-0 end-0 bottom-0 d-flex flex-column justify-content-center align-items-center"
+  [ngClass]="{
+    'bg-primary text-white': !isDarkMode,
+    'bg-dark text-light': isDarkMode
+  }"
+  style="z-index: 0;"
+>
+  <h1 class="display-4 mb-3 text-center">Bienvenue dans votre espace de gestion</h1>
+  <p class="lead text-center mb-4">Gérez vos stocks efficacement et simplement</p>
+  
+  <!-- Bouton Commencer -->
+  <a 
+    routerLink="/dashboard" 
+    class="btn btn-success btn-lg"
+  >
+    Commencer
+  </a>
+</div>

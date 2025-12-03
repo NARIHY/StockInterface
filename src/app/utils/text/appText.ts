@@ -3,5 +3,5 @@ export interface IAppText {
 }
 
 export const AppText: IAppText = {
-    appTitle: 'Starter Module Angular'
+    appTitle: 'Stock Managements'
 };

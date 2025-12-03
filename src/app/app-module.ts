@@ -8,13 +8,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './utils/not-found-component/not-found-component';
 import { LoaderComponent } from './utils/loader-component/loader-component';
+import { GuestComponent } from './guest/guest-component/guest-component';
+import { CategoryManagementComponent } from './dashboard/category-management-component/category-management-component';
+import { StockManagementComponent } from './dashboard/stock-management-component/stock-management-component';
+import { ProductManagementComponent } from './dashboard/product-management-component/product-management-component';
 
 @NgModule({
   declarations: [
     App,
     MenuComponent,
     NotFoundComponent,
-    LoaderComponent
+    LoaderComponent,
+    GuestComponent,
+    CategoryManagementComponent,
+    StockManagementComponent,
+    ProductManagementComponent
   ],
   imports: [
     BrowserModule,
